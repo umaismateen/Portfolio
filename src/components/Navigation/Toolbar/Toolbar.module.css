@@ -1,0 +1,32 @@
+.Toolbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:  30px 10px;
+    color: white;
+   
+}
+
+.Toolbar a {
+    text-decoration: none;
+    color: white;
+}
+
+.Icons {
+    height: 2rem; 
+    width: 2rem;
+    vertical-align: middle;
+    color: white;
+    margin: 0 10px 0px 30px;
+}
+
+
+@media(max-width:660px){
+    .Toolbar {
+        justify-content: center;
+        padding: 30px 5px;
+    }
+    .Toolbar p {
+       display: none;
+    }
+}

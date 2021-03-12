@@ -1,0 +1,10 @@
+.NavigationItems {
+ 
+    list-style: none;
+    text-decoration: none;
+    
+}
+
+.NavigationItems ul {
+    padding: 0;
+}

@@ -1,0 +1,16 @@
+.SkillBar {
+    background-color: white;
+    display: inline-block;
+    color: black;
+    padding: 4px 6px;
+    border-radius: 15px;
+    margin: 10px 10px;
+    transition: 0.3s all ease;
+    
+}
+
+.SkillBar:hover {
+    background-color: transparent;
+    color: white;
+    cursor: default;
+}

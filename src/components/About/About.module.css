@@ -1,0 +1,45 @@
+.About {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    color: white;
+    animation: about 0.3s ease-in ;
+
+}
+
+.About h4 {
+    color:grey;
+    font-weight: 200;
+}
+
+.Main {
+    font-size: x-large;
+    color: whitesmoke;
+}
+
+.About img {
+    margin-top: 40px;
+    margin-bottom: 20px;
+    border-radius: 50%;
+    text-align: center;
+}
+
+@keyframes about {
+    from {
+        transform: translateY(-10px);
+        opacity: 0;
+    }
+  to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+}
+
+@keyframes image {
+    from {opacity: 0;}
+  to {
+      opacity: 1;
+    }
+}
