@@ -9,6 +9,11 @@
 
 }
 
+.About h1 {
+    color: #a972cb;
+    margin-top: 0;
+}
+
 .About h4 {
     color:grey;
     font-weight: 200;
