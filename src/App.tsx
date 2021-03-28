@@ -1,5 +1,5 @@
 import React from 'react';
-import {Route,Switch} from 'react-router-dom';
+import { Route,Switch,Redirect } from 'react-router-dom';
 import Layout from './components/Layout/Layout';
 import About from './containers/About/About';
 import Contact from './containers/Contact/Contact';
@@ -13,7 +13,8 @@ const App: React.FC = () => {
       <Switch>
         <Route path="/contact" exact component={Contact} />
         <Route path="/skills" exact component={Skills} />
-        <Route path="/"  component={About} />
+        <Route path="/" exact component={About} />
+        <Redirect to="/" />
       </Switch>
     </div>
   );

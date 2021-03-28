@@ -7,10 +7,10 @@ const NavigationItems: React.FC = () => {
     return (
         <nav className={classes.NavigationItems} >
             <ul >
-                <NavigationItem link="/about" >ABOUT</NavigationItem>
-                <NavigationItem link="/skills" >SKILLS</NavigationItem>
+                <NavigationItem exact link="/" >ABOUT</NavigationItem>
+                <NavigationItem exact link="/skills" >SKILLS</NavigationItem>
                 {/* <NavigationItem link="/work" >WORK</NavigationItem> */}
-                <NavigationItem link="/contact" >CONTACT</NavigationItem>
+                <NavigationItem exact link="/contact" >CONTACT</NavigationItem>
             </ul>
         </nav>
     );
