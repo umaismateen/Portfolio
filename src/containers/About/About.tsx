@@ -6,7 +6,7 @@ import classes from './About.module.css';
 const About: React.FC = () => {
     return (
         <div className={classes.About} >
-            <img src={image} width="200" height="200" />
+            <img src={image} width="200" height="200" alt="_" />
             <h3>Hi, I'm Umais </h3>
             <div className={classes.Main} >
                 <h1 >Building digital <br />products, brands, and
@@ -20,6 +20,9 @@ const About: React.FC = () => {
                 <br />
                 and Visual Development
             </h4>
+            <div className={classes.button}>
+                <a href="https://github.com/umaismateen?tab=repositories" target="_blank" rel="noreferrer" > <button className={classes.fill}>PROJECTS</button> </a>
+            </div>
         </div>
     );
 }

@@ -11,9 +11,9 @@ const Contact: React.FC = () => {
             <h1>Let's work together...</h1>
             <i> <h4>How do you take your coffee? </h4> </i>
             <div className={classes.Links} >
-                <a href="https://web.facebook.com/umais.chaudary/" target="_blank" > <h3><IoLogoFacebook className={classes.Icons} /> Facebook </h3> </a>
-                <a href="https://www.instagram.com/chaudhary_umais/" target="_blank" > <h3><FaInstagram className={classes.Icons} /> Instagram </h3></a>
-                <a href="https://github.com/umaismateen" target="_blank" > <h3><FaGithubSquare className={classes.Icons} /> Github </h3> </a>
+                <a href="https://web.facebook.com/umais.chaudary/" target="_blank" rel="noreferrer" > <h3><IoLogoFacebook className={classes.Icons} /> Facebook </h3> </a>
+                <a href="https://www.instagram.com/chaudhary_umais/" target="_blank" rel="noreferrer" > <h3><FaInstagram className={classes.Icons} /> Instagram </h3></a>
+                <a href="https://github.com/umaismateen" target="_blank" rel="noreferrer" > <h3><FaGithubSquare className={classes.Icons} /> Github </h3> </a>
                 <a href="mailTo:umais.mateen@gmail.com" > <h3><HiOutlineMail className={classes.Icons} /> Email </h3> </a>
             </div>
             <div className={classes.button}>
