@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/umaismateen/Portfolio/static/css/main.8dd956b9.chunk.css",
+    "main.js": "/umaismateen/Portfolio/static/js/main.c7564384.chunk.js",
+    "main.js.map": "/umaismateen/Portfolio/static/js/main.c7564384.chunk.js.map",
+    "runtime-main.js": "/umaismateen/Portfolio/static/js/runtime-main.14df1af8.js",
+    "runtime-main.js.map": "/umaismateen/Portfolio/static/js/runtime-main.14df1af8.js.map",
+    "static/js/2.797739fe.chunk.js": "/umaismateen/Portfolio/static/js/2.797739fe.chunk.js",
+    "static/js/2.797739fe.chunk.js.map": "/umaismateen/Portfolio/static/js/2.797739fe.chunk.js.map",
+    "index.html": "/umaismateen/Portfolio/index.html",
+    "static/css/main.8dd956b9.chunk.css.map": "/umaismateen/Portfolio/static/css/main.8dd956b9.chunk.css.map",
+    "static/js/2.797739fe.chunk.js.LICENSE.txt": "/umaismateen/Portfolio/static/js/2.797739fe.chunk.js.LICENSE.txt",
+    "static/media/pp.05b8789d.jpg": "/umaismateen/Portfolio/static/media/pp.05b8789d.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.14df1af8.js",
+    "static/js/2.797739fe.chunk.js",
+    "static/css/main.8dd956b9.chunk.css",
+    "static/js/main.c7564384.chunk.js"
+  ]
+}
